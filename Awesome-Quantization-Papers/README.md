@@ -7,7 +7,7 @@ Currently the joint table is in progress, and contributions are more than welcom
 Our [quantization survey paper](https://arxiv.org/abs/2103.13630) is included in the Book [Low-Power Computer Vision: Improve the Efficiency of Artificial Intelligence](https://www.routledge.com/Low-Power-Computer-Vision-Improve-the-Efficiency-of-Artificial-Intelligence/Thiruvathukal-Lu-Kim-Chen-Chen/p/book/9780367744700).
 
 ## Sort by Categories
-Please search using the [cvs file](https://github.com/Zhen-Dong/Awesome-Quantization-Papers/blob/main/awesome_quantization_papers/awesome_quantization_papers.csv).
+Please search using the [cvs file](https://github.com/Zhen-Dong/Awesome-Quantization-Papers/blob/main/Awesome-Quantization-Papers/Awesome_Quantization_Papers.csv).
 
 ## Joint Table
 **Bitwidth Settings:** **MP**&#8594; Mixed-Precision, **Uni**&#8594; Uniform Quantization, **T**&#8594; Ternarization, **B**&#8594; Binarization
@@ -5740,4 +5740,4 @@ Please search using the [cvs file](https://github.com/Zhen-Dong/Awesome-Quantiza
 [awesome-model-quantization](https://github.com/htqin/awesome-model-quantization#awesome-model-quantization-) 
 
 ## LICENSE
-The repo is released under the [MIT license](LICENSE).
+The repo is released under the [MIT license](https://github.com/Zhen-Dong/Awesome-Quantization-Papers/blob/main/LICENSE).
