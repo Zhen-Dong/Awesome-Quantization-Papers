@@ -588,10 +588,10 @@ Please search using the [cvs file](https://github.com/Zhen-Dong/Awesome-Quantiza
 <tr>
 <th>Distribution-aware Adaptive Multi-bit Quantization</th>
 <th><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Distribution-Aware_Adaptive_Multi-Bit_Quantization_CVPR_2021_paper.pdf">CVPR 2021</a></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th>MP</th>
+<th>OptN</th>
+<th>QAT</th>
+<th>C</th>
 <th>
 </th>
 </tr>
@@ -708,10 +708,10 @@ Please search using the [cvs file](https://github.com/Zhen-Dong/Awesome-Quantiza
 <tr>
 <th>Learnable Companding Quantization for Accurate Low-Bit Neural Networks</th>
 <th><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Yamamoto_Learnable_Companding_Quantization_for_Accurate_Low-Bit_Neural_Networks_CVPR_2021_paper.pdf">CVPR 2021</a></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th>Uni</th>
+<th>LQ</th>
+<th>QAT</th>
+<th>C/O</th>
 <th>
 </th>
 </tr>
@@ -744,10 +744,10 @@ Please search using the [cvs file](https://github.com/Zhen-Dong/Awesome-Quantiza
 <tr>
 <th>Permute, Quantize, and Fine-tune: Efficient Compression of Neural Networks<a href="https://github.com/uber-research/permute-quantize-finetune">[PyTorch]</a>:star:109</th>
 <th><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Martinez_Permute_Quantize_and_Fine-Tune_Efficient_Compression_of_Neural_Networks_CVPR_2021_paper.pdf">CVPR 2021</a></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th>Uni</th>
+<th>VQ</th>
+<th>QAT</th>
+<th>C/O/S</th>
 <th>
 </th>
 </tr>
