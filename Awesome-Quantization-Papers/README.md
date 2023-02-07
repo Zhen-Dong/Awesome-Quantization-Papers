@@ -5740,4 +5740,6 @@ Please search using the [cvs file](https://github.com/Zhen-Dong/Awesome-Quantiza
 [awesome-model-quantization](https://github.com/htqin/awesome-model-quantization#awesome-model-quantization-) 
 
 ## LICENSE
+THIS SOFTWARE WAS DEPOSITED IN THE BAIR OPEN RESEARCH COMMONS REPOSITORY ON FEB 1, 2023.
+
 The repo is released under the [MIT license](https://github.com/Zhen-Dong/Awesome-Quantization-Papers/blob/main/LICENSE).
