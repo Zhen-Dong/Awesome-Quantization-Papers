@@ -12,18 +12,18 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 ---
 ## Overview
 
-- [Awesome-Quantization-Papers ](#awesome-quantization-papers-)
+- [Awesome-Quantization-Papers](#awesome-quantization-papers)
   - [Overview](#overview)
   - [Survey](#survey)
-  - [Convolutional Neural Network](#convolutional-neural-network)
+  - [Convolutional Neural Networks](#convolutional-neural-networks)
     - [Image Classification](#image-classification)
     - [Other Tasks](#other-tasks)
       - [Object Detection](#object-detection)
       - [Super Resolution](#super-resolution)
       - [Point Cloud](#point-cloud)
-  - [Transformer](#transformer)
-    - [Vision Transformer](#vision-transformer)
-    - [Language Transformer](#language-transformer)
+  - [Transformer-based Models](#transformer-based-models)
+    - [Vision Transformers](#vision-transformers)
+    - [Language Transformers](#language-transformers)
   - [References](#references)
 
 **Keywords**: **`PTQ`**: post-training quantization | **`Non-uniform`**: non-uniform quantization | **`MP`**: mixed-precision quantization | **`Extreme`**: binary or ternary quantization
@@ -38,7 +38,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "Binary Neural Networks: A Survey", PR, 2020. [[Paper](https://arxiv.org/abs/2004.03333)] [**`Extreme`**]
 
 
-## Convolutional Neural Network
+## Convolutional Neural Networks
 ### Image Classification
 - "One-Shot Model for Mixed-Precision Quantization", CVPR, 2023. [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Koryakovskiy_One-Shot_Model_for_Mixed-Precision_Quantization_CVPR_2023_paper.pdf)] [**`MP`**]
 - "Adaptive Data-Free Quantization", CVPR, 2023. [[paper](https://arxiv.org/abs/2303.06869)] 
@@ -146,8 +146,8 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 [[Back to Overview](#overview)]
 
-## Transformer
-### Vision Transformer
+## Transformer-based Models
+### Vision Transformers
 - "NoisyQuant: Noisy Bias-Enhanced Post-Training Activation Quantization for Vision Transformers", CVPR, 2023. [[paper](https://arxiv.org/pdf/2211.16056.pdf)]  [**`PTQ`**]
 - "Boost Vision Transformer with GPU-Friendly Sparsity and Quantization", CVPR, 2023. [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Boost_Vision_Transformer_With_GPU-Friendly_Sparsity_and_Quantization_CVPR_2023_paper.pdf)] 
 - "Q-DETR: An Efficient Low-Bit Quantized Detection Transformer", CVPR, 2023. [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Xu_Q-DETR_An_Efficient_Low-Bit_Quantized_Detection_Transformer_CVPR_2023_paper.html)]
@@ -167,7 +167,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 [[Back to Overview](#overview)]
 
-### Language Transformer
+### Language Transformers
 - "AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration", arXiv, 2023. [[paper](https://arxiv.org/abs/2306.00978)] [**`PTQ`**]
 - "LLM-QAT: Data-Free Quantization Aware Training for Large Language Models", arXiv, 2023. [[paper](https://arxiv.org/abs/2305.17888)]
 - "QLoRA: Efficient Finetuning of Quantized LLMs", arXiv, 2023. [[paper](https://arxiv.org/abs/2305.14314)]
@@ -195,7 +195,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "Towards Fully 8-bit Integer Inference for the Transformer Model", IJCAI, 2020. [[paper](https://www.ijcai.org/Proceedings/2020/0520.pdf)] 
 - "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT", AAAI, 2020. [[paper](https://ojs.aaai.org/index.php/AAAI/article/download/6409/6265)]
 - "Efficient 8-Bit Quantization of Transformer Neural Machine Language Translation Model", ICML, 2019. [[paper](https://arxiv.org/abs/1906.00532)]
-- "Q8BERT: Quantized 8Bit BERT", NeurIPS, 2019. [[paper](https://www.emc2-ai.org/assets/docs/neurips-19/emc2-neurips19-paper-31.pdf)] 
+- "Q8BERT: Quantized 8Bit BERT", EMC2 Workshop, 2019. [[paper](https://www.emc2-ai.org/assets/docs/neurips-19/emc2-neurips19-paper-31.pdf)] 
 
 [[Back to Overview](#overview)]
 
