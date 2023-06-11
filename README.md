@@ -105,7 +105,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "Scalable Verification of Quantized Neural Networks", AAAI, 2021. [[paper](https://arxiv.org/pdf/2012.08185)] [[code](https://github.com/mlech26l/qnn_robustness_benchmarks)]
 - "Uncertainty Quantification in CNN through the Bootstrap of Convex Neural Networks", AAAI, 2021. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17434/17241)]
 - "FracBits: Mixed Precision Quantization via Fractional Bit-Widths", AAAI, 2021. [[paper](https://www.semanticscholar.org/paper/FracBits%3A-Mixed-Precision-Quantization-via-Yang-Jin/cb219432863778fa173925d51fbf02af1d17ad98)] [**`MP`**]
-- "Post-­training Quantization with Multiple Points: Mixed Precision without Mixed Precision", AAAI, 2021. [[paper](https://arxiv.org/pdf/2002.09049)]  [**`PTQ`**] [**`MP`**]
+- "Post-training Quantization with Multiple Points: Mixed Precision without Mixed Precision", AAAI, 2021. [[paper](https://arxiv.org/pdf/2002.09049)]  [**`PTQ`**] [**`MP`**]
 - "ZeroQ: A Novel Zero Shot Quantization Framework", CVPR, 2020. [[paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Cai_ZeroQ_A_Novel_Zero_Shot_Quantization_Framework_CVPR_2020_paper.html)] [[code](https://github.com/amirgholami/ZeroQ)]  [**`PTQ`**]
 - "LSQ+: Improving Low-bit Quantization Through Learnable Offsets and Better Initialization", CVPR, 2020. [[paper](http://openaccess.thecvf.com/content_CVPRW_2020/html/w40/Bhalgat_LSQ_Improving_Low-Bit_Quantization_Through_Learnable_Offsets_and_Better_Initialization_CVPRW_2020_paper.html)]
 - "HAWQ-V2: Hessian Aware trace-Weighted Quantization of Neural Networks", NeurIPS, 2020. [[paper](https://proceedings.neurips.cc/paper/2020/hash/d77c703536718b95308130ff2e5cf9ee-Abstract.html)] [**`MP`**]
@@ -148,9 +148,10 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Transformer-based Models
 ### Vision Transformers
-- "NoisyQuant: Noisy Bias-Enhanced Post-Training Activation Quantization for Vision Transformers", CVPR, 2023. [[paper](https://arxiv.org/pdf/2211.16056.pdf)]  [**`PTQ`**]
+- "NoisyQuant: Noisy Bias-Enhanced Post-Training Activation Quantization for Vision Transformers", CVPR, 2023. [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_NoisyQuant_Noisy_Bias-Enhanced_Post-Training_Activation_Quantization_for_Vision_Transformers_CVPR_2023_paper.pdf)]  [**`PTQ`**]
 - "Boost Vision Transformer with GPU-Friendly Sparsity and Quantization", CVPR, 2023. [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Boost_Vision_Transformer_With_GPU-Friendly_Sparsity_and_Quantization_CVPR_2023_paper.pdf)] 
 - "Q-DETR: An Efficient Low-Bit Quantized Detection Transformer", CVPR, 2023. [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Xu_Q-DETR_An_Efficient_Low-Bit_Quantized_Detection_Transformer_CVPR_2023_paper.html)]
+- "Q-diffusion: Quantizing diffusion models", arXiv, 2023. [[paper](https://arxiv.org/pdf/2302.04304.pdf)]  [**`PTQ`**]
 - "QD-BEV: Quantization-aware View-guided Distillation for Multi-view 3D Object Detection", 2023. [[paper](https://practical-dl.github.io/2023/extended_abstract/22/CameraReady/22.pdf)]
 - "Output Sensitivity-Aware DETR Quantization", 2023. [[paper](https://practical-dl.github.io/2023/extended_abstract/4/CameraReady/4.pdf)]
 - "RepQ-ViT: Scale Reparameterization for Post-Training Quantization of Vision Transformers", arXiv, 2022. [[paper](https://arxiv.org/abs/2212.08254)]  [**`PTQ`**]
