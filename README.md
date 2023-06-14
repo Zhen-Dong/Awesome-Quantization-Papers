@@ -169,6 +169,8 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 [[Back to Overview](#overview)]
 
 ### Language Transformers
+- "SqueezeLLM: Dense-and-Sparse Quantization", arXiv, 2023. [[paper](https://arxiv.org/abs/2306.07629)] [**`PTQ`**]
+- "SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression", arXiv, 2023. [[paper](https://arxiv.org/abs/2306.03078)] [**`PTQ`**]
 - "AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration", arXiv, 2023. [[paper](https://arxiv.org/abs/2306.00978)] [**`PTQ`**]
 - "LLM-QAT: Data-Free Quantization Aware Training for Large Language Models", arXiv, 2023. [[paper](https://arxiv.org/abs/2305.17888)]
 - "QLoRA: Efficient Finetuning of Quantized LLMs", arXiv, 2023. [[paper](https://arxiv.org/abs/2305.14314)]
