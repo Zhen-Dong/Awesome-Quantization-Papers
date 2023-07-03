@@ -6,6 +6,7 @@ This repo is being actively updated, and contributions in any form to make this 
 
 If you find this repo useful, please consider **★STARing** and feel free to share it with others! <br>
 
+**[Update: July, 2023]** Add new papers from AAAI-23. <br>
 **[Update: June, 2023]** Add new arXiv papers uploaded in May 2023, especially the hot LLM quantization field. <br>
 **[Update: June, 2023]** Reborn this repo! New style, better experience! <br>
 
@@ -40,6 +41,11 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Convolutional Neural Networks
 ### Image Classification
+- "OMPQ: Orthogonal Mixed Precision Quantization", AAAI, 2023. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26084)] [**`MP`**]
+- "Rethinking Data-Free Quantization as a Zero-Sum Game", AAAI, 2023. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26136)]
+- "Quantized Feature Distillation for Network Quantization", AAAI, 2023. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26354)]
+- "Resilient Binary Neural Network", AAAI, 2023. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26261)] [**`Extreme`**]
+- "Fast and Accurate Binary Neural Networks Based on Depth-Width Reshaping", AAAI, 2023. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26268)] [**`Extreme`**]
 - "Efficient Quantization-aware Training with Adaptive Coreset Selection", arXiv, 2023. [[paper](http://arxiv.org/abs/2306.07215)] 
 - "One-Shot Model for Mixed-Precision Quantization", CVPR, 2023. [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Koryakovskiy_One-Shot_Model_for_Mixed-Precision_Quantization_CVPR_2023_paper.pdf)] [**`MP`**]
 - "Adaptive Data-Free Quantization", CVPR, 2023. [[paper](https://arxiv.org/abs/2303.06869)] 
