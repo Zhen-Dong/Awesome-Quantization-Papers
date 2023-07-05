@@ -59,7 +59,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "GACT: Activation Compressed Training for Generic Network Architectures", ICML, 2022. [[paper](https://proceedings.mlr.press/v162/liu22v.html)] [[code](https://github.com/LiuXiaoxuanPKU/GACT-ICML)]
 - "Overcoming Oscillations in Quantization-Aware Training", ICML, 2022. [[paper](https://proceedings.mlr.press/v162/nagel22a/nagel22a.pdf)] [[code](https://github.com/qualcomm-ai-research/oscillations-qat)]
 - "Nonuniform-to-Uniform Quantization: Towards Accurate Quantization via Generalized Straight-Through Estimation", CVPR, 2022. [[paper](https://arxiv.org/abs/2111.14826)] [[code](https://github.com/liuzechun/Nonuniform-to-Uniform-Quantization)] [**`Non-uniform`**]
-- "Learnable Lookup Table for Neural Network Quantization", CVPR, 2022. [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Learnable_Lookup_Table_for_Neural_Network_Quantization_CVPR_2022_paper.pdf)] [[code](https://github.com/The-Learning-And-Vision-Atelier-LAVA/LLT)]
+- "Learnable Lookup Table for Neural Network Quantization", CVPR, 2022. [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Learnable_Lookup_Table_for_Neural_Network_Quantization_CVPR_2022_paper.pdf)] [[code](https://github.com/The-Learning-And-Vision-Atelier-LAVA/LLT)] [**`Non-uniform`**]
 - "Mr.BiQ: Post-Training Non-Uniform Quantization based on Minimizing the Reconstruction Error", CVPR, 2022. [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Jeon_Mr.BiQ_Post-Training_Non-Uniform_Quantization_Based_on_Minimizing_the_Reconstruction_Error_CVPR_2022_paper.pdf)] [**`PTQ`**] [**`Non-uniform`**]
 - "Data-Free Network Compression via Parametric Non-uniform Mixed Precision Quantization", CVPR, 2022. [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Chikin_Data-Free_Network_Compression_via_Parametric_Non-Uniform_Mixed_Precision_Quantization_CVPR_2022_paper.pdf)] [**`Non-uniform`**] [**`MP`**]
 - "IntraQ: Learning Synthetic Images With Intra-Class Heterogeneity for Zero-Shot Network Quantization", CVPR, 2022. [[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Zhong_IntraQ_Learning_Synthetic_Images_With_Intra-Class_Heterogeneity_for_Zero-Shot_Network_CVPR_2022_paper.html)] [[code](https://github.com/zysxmu/IntraQ)]
@@ -178,7 +178,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 [[Back to Overview](#overview)]
 
 ### Language Transformers
-- "SqueezeLLM: Dense-and-Sparse Quantization", arXiv, 2023. [[paper](https://arxiv.org/abs/2306.07629)] [**`PTQ`**]
+- "SqueezeLLM: Dense-and-Sparse Quantization", arXiv, 2023. [[paper](https://arxiv.org/abs/2306.07629)] [**`PTQ`**] [**`Non-uniform`**]
 - "OWQ: Lessons learned from activation outliers for weight quantization in large language models", arXiv, 2023. [[paper](http://arxiv.org/abs/2306.02272)] [**`PTQ`**]
 - "PreQuant: A Task-agnostic Quantization Approach for Pre-trained Language Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2306.00014)]
 - "SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression", arXiv, 2023. [[paper](https://arxiv.org/abs/2306.03078)] [**`PTQ`**]
