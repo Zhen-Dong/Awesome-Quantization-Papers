@@ -41,6 +41,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Convolutional Neural Networks
 ### Image Classification
+- "Data-Free Quantization via Mixed-Precision Compensation without Fine-Tuning", PR, 2023. [[paper](http://arxiv.org/abs/2307.00498)]
 - "OMPQ: Orthogonal Mixed Precision Quantization", AAAI, 2023. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26084)] [**`MP`**]
 - "Rethinking Data-Free Quantization as a Zero-Sum Game", AAAI, 2023. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26136)]
 - "Quantized Feature Distillation for Network Quantization", AAAI, 2023. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26354)]
@@ -155,6 +156,9 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Transformer-based Models
 ### Vision Transformers
+- "RepQ-ViT: Scale Reparameterization for Post-Training Quantization of Vision Transformers", ICCV, 2023. [[paper](https://arxiv.org/abs/2212.08254)]  [**`PTQ`**]
+- "I-ViT: integer-only quantization for efficient vision transformer inference", ICCV, 2023. [[paper](https://arxiv.org/abs/2207.01405)] 
+- "Variation-aware Vision Transformer Quantization", arXiv, 2023. [[paper](http://arxiv.org/abs/2307.00331)]
 - "Temporal Dynamic Quantization for Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2306.02316)] 
 - "Towards Accurate Data-free Quantization for Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2305.18723)] [**`PTQ`**]
 - "NoisyQuant: Noisy Bias-Enhanced Post-Training Activation Quantization for Vision Transformers", CVPR, 2023. [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_NoisyQuant_Noisy_Bias-Enhanced_Post-Training_Activation_Quantization_for_Vision_Transformers_CVPR_2023_paper.pdf)]  [**`PTQ`**]
@@ -163,8 +167,6 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "Q-diffusion: Quantizing diffusion models", arXiv, 2023. [[paper](https://arxiv.org/pdf/2302.04304.pdf)]  [**`PTQ`**]
 - "QD-BEV: Quantization-aware View-guided Distillation for Multi-view 3D Object Detection", 2023. [[paper](https://practical-dl.github.io/2023/extended_abstract/22/CameraReady/22.pdf)]
 - "Output Sensitivity-Aware DETR Quantization", 2023. [[paper](https://practical-dl.github.io/2023/extended_abstract/4/CameraReady/4.pdf)]
-- "RepQ-ViT: Scale Reparameterization for Post-Training Quantization of Vision Transformers", arXiv, 2022. [[paper](https://arxiv.org/abs/2212.08254)]  [**`PTQ`**]
-- "I-ViT: integer-only quantization for efficient vision transformer inference", arXiv, 2022. [[paper](https://arxiv.org/abs/2207.01405)] 
 - "PSAQ-ViT V2: Towards Accurate and General Data-Free Quantization for Vision Transformers", arXiv, 2022. [[paper](https://arxiv.org/abs/2209.05687)] 
 - "Q-HyViT: Post-Training Quantization for Hybrid Vision Transformer with Bridge Block Reconstruction", arXiv, 2023. [[paper](https://arxiv.org/abs/2303.12557)]  [**`PTQ`**]
 - "Q-ViT: Accurate and Fully Quantized Low-bit Vision Transformer", NeurIPS, 2022. [[paper](https://openreview.net/forum?id=fU-m9kQe0ke)] [[code](https://github.com/yanjingli0202/q-vit)]
@@ -179,6 +181,11 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ### Language Transformers
 - "SqueezeLLM: Dense-and-Sparse Quantization", arXiv, 2023. [[paper](https://arxiv.org/abs/2306.07629)] [**`PTQ`**] [**`Non-uniform`**]
+- "ZeroQuant-FP: A Leap Forward in LLMs Post-Training W4A8 Quantization Using Floating-Point Formats", arXiv, 2023. [[paper](http://arxiv.org/abs/2307.09782)]
+- "Self-Distilled Quantization: Achieving High Compression Rates in Transformer-Based Language Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2307.05972)]
+- "Do Emergent Abilities Exist in Quantized Large Language Models: An Empirical Study", arXiv, 2023. [[paper](https://arxiv.org/abs/2307.08072)]
+- "INT2.1: Towards Fine-Tunable Quantized Large Language Models with Error Correction through Low-Rank Adaptation", arXiv, 2023. [[paper](https://arxiv.org/abs/2306.08162)]
+- "QIGen: Generating Efficient Kernels for Quantized Inference on Large Language Models", arXiv, 2023. [[paper](https://arxiv.org/abs/2307.03738)] [[code](https://github.com/IST-DASLab/QIGen)]
 - "OWQ: Lessons learned from activation outliers for weight quantization in large language models", arXiv, 2023. [[paper](http://arxiv.org/abs/2306.02272)] [**`PTQ`**]
 - "PreQuant: A Task-agnostic Quantization Approach for Pre-trained Language Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2306.00014)]
 - "SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression", arXiv, 2023. [[paper](https://arxiv.org/abs/2306.03078)] [**`PTQ`**]
