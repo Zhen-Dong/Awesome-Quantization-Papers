@@ -6,7 +6,7 @@ This repo is being actively updated, and contributions in any form to make this 
 
 If you find this repo useful, please consider **★STARing** and feel free to share it with others! <br>
 
-**[Update: July, 2023]** Add new papers from AAAI-23. <br>
+**[Update: July, 2023]** Add new papers from AAAI-23 and ICML-23. <br>
 **[Update: June, 2023]** Add new arXiv papers uploaded in May 2023, especially the hot LLM quantization field. <br>
 **[Update: June, 2023]** Reborn this repo! New style, better experience! <br>
 
@@ -41,6 +41,8 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Convolutional Neural Networks
 ### Image Classification
+- "Few-bit Backward: Quantized Gradients of Activation Functions for Memory Footprint Reduction", ICML, 2023. [[paper](https://openreview.net/forum?id=m2S96Qf2R3)] [[code](https://github.com/SkoltechAI/fewbit)]
+- "FlexRound: Learnable Rounding based on Element-wise Division for Post-Training Quantization", ICML, 2023. [[paper](https://openreview.net/forum?id=EPnzNJTYsb)] [**`PTQ`**]
 - "Data-Free Quantization via Mixed-Precision Compensation without Fine-Tuning", PR, 2023. [[paper](http://arxiv.org/abs/2307.00498)]
 - "OMPQ: Orthogonal Mixed Precision Quantization", AAAI, 2023. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26084)] [**`MP`**]
 - "Rethinking Data-Free Quantization as a Zero-Sum Game", AAAI, 2023. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26136)]
@@ -158,6 +160,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 ### Vision Transformers
 - "RepQ-ViT: Scale Reparameterization for Post-Training Quantization of Vision Transformers", ICCV, 2023. [[paper](https://arxiv.org/abs/2212.08254)]  [**`PTQ`**]
 - "I-ViT: integer-only quantization for efficient vision transformer inference", ICCV, 2023. [[paper](https://arxiv.org/abs/2207.01405)] 
+- "Oscillation-free Quantization for Low-bit Vision Transformers", ICML, 2023. [[paper](https://openreview.net/forum?id=DihXH24AdY)] [[code](https://github.com/nbasyl/OFQ)]
 - "Variation-aware Vision Transformer Quantization", arXiv, 2023. [[paper](http://arxiv.org/abs/2307.00331)]
 - "Temporal Dynamic Quantization for Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2306.02316)] 
 - "Towards Accurate Data-free Quantization for Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2305.18723)] [**`PTQ`**]
@@ -195,6 +198,9 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "Memory-Efficient Fine-Tuning of Compressed Large Language Models via sub-4-bit Integer Quantization", arXiv, 2023. [[paper](https://arxiv.org/abs/2305.14152)]
 - "Outlier Suppression+: Accurate quantization of large language models by equivalent and optimal shifting and scaling", arXiv, 2023. [[paper](https://arxiv.org/abs/2304.09145)] [**`PTQ`**]
 - "RPTQ: Reorder-based Post-training Quantization for Large Language Models", arXiv, 2023. [[paper](https://arxiv.org/abs/2304.01089)] [[code](https://github.com/hahnyuan/rptq4llm)] [**`PTQ`**]
+- "The case for 4-bit precision: k-bit Inference Scaling Laws", ICML, 2023. [[paper](https://openreview.net/forum?id=i8tGb1ab1j)]
+- "Quantized Distributed Training of Large Models with Convergence Guarantees", ICML, 2023. [[paper](https://openreview.net/forum?id=Nqp8A5IDzq)]
+- "Understanding Int4 Quantization for Language Models: Latency Speedup, Composability, and Failure Cases", ICML, 2023. [[paper](https://openreview.net/forum?id=q1WGm3hItW)]
 - "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models", ICML, 2023. [[paper](https://arxiv.org/abs/2211.10438)] [[code](https://github.com/mit-han-lab/smoothquant)] [**`PTQ`**]
 - "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers", ICLR, 2023. [[papar](https://arxiv.org/abs/2210.17323)]  [[code](https://github.com/IST-DASLab/gptq)] [**`PTQ`**]
 - "LUT-GEMM: Quantized Matrix Multiplication based on LUTs for Efficient Inference in Large-Scale Generative Language Models", arXiv, 2022. [[paper](https://arxiv.org/abs/2206.09557)] 
