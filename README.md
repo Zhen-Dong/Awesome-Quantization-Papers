@@ -155,7 +155,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "BiPointNet: Binary Neural Network for Point Clouds", ICLR, 2021. [[paper](https://openreview.net/forum?id=9QLRCVysdlO)]  [[code](https://github.com/htqin/BiPointNet)] [**`Extreme`**]
 
 #### Visual Generation
-- "Q-diffusion: Quantizing diffusion models", ICCV, 2023. [[paper](https://arxiv.org/abs/2302.04304)] [[code](https://github.com/Xiuyu-Li/q-diffusion)] [**`PTQ`**]
+- "Q-diffusion: Quantizing Diffusion Models", ICCV, 2023. [[paper](https://arxiv.org/abs/2302.04304)] [[code](https://github.com/Xiuyu-Li/q-diffusion)] [**`PTQ`**]
 - "Temporal Dynamic Quantization for Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2306.02316)] 
 - "Towards Accurate Data-free Quantization for Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2305.18723)] [**`PTQ`**]
 - "Post-training Quantization on Diffusion Models", CVPR, 2023. [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.html)] [[code](https://https//github.com/42Shawn/PTQ4DM)] [**`PTQ`**]
@@ -165,7 +165,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 ## Transformer-based Models
 ### Vision Transformers
 - "RepQ-ViT: Scale Reparameterization for Post-Training Quantization of Vision Transformers", ICCV, 2023. [[paper](https://arxiv.org/abs/2212.08254)] [[code](https://github.com/zkkli/RepQ-ViT)] [**`PTQ`**]
-- "I-ViT: integer-only quantization for efficient vision transformer inference", ICCV, 2023. [[paper](https://arxiv.org/abs/2207.01405)] [[code](https://github.com/zkkli/I-ViT)]
+- "I-ViT: Integer-only Quantization for Efficient Vision Transformer Inference", ICCV, 2023. [[paper](https://arxiv.org/abs/2207.01405)] [[code](https://github.com/zkkli/I-ViT)]
 - "QD-BEV: Quantization-aware View-guided Distillation for Multi-view 3D Object Detection", ICCV, 2023. [[paper](https://practical-dl.github.io/2023/extended_abstract/22/CameraReady/22.pdf)]
 - "Oscillation-free Quantization for Low-bit Vision Transformers", ICML, 2023. [[paper](https://openreview.net/forum?id=DihXH24AdY)] [[code](https://github.com/nbasyl/OFQ)]
 - "Variation-aware Vision Transformer Quantization", arXiv, 2023. [[paper](http://arxiv.org/abs/2307.00331)]
