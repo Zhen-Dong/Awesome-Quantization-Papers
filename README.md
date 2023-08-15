@@ -42,6 +42,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Convolutional Neural Networks
 ### Image Classification
+- "Unified Data-Free Compression: Pruning and Quantization without Fine-Tuning", ICCV, 2023. [[paper](http://arxiv.org/abs/2308.07209)] [**`PTQ`**]
 - "Few-bit Backward: Quantized Gradients of Activation Functions for Memory Footprint Reduction", ICML, 2023. [[paper](https://openreview.net/forum?id=m2S96Qf2R3)] [[code](https://github.com/SkoltechAI/fewbit)]
 - "FlexRound: Learnable Rounding based on Element-wise Division for Post-Training Quantization", ICML, 2023. [[paper](https://openreview.net/forum?id=EPnzNJTYsb)] [**`PTQ`**]
 - "Data-Free Quantization via Mixed-Precision Compensation without Fine-Tuning", PR, 2023. [[paper](http://arxiv.org/abs/2307.00498)]
@@ -168,12 +169,12 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "I-ViT: Integer-only Quantization for Efficient Vision Transformer Inference", ICCV, 2023. [[paper](https://arxiv.org/abs/2207.01405)] [[code](https://github.com/zkkli/I-ViT)]
 - "QD-BEV: Quantization-aware View-guided Distillation for Multi-view 3D Object Detection", ICCV, 2023. [[paper](https://practical-dl.github.io/2023/extended_abstract/22/CameraReady/22.pdf)]
 - "Oscillation-free Quantization for Low-bit Vision Transformers", ICML, 2023. [[paper](https://openreview.net/forum?id=DihXH24AdY)] [[code](https://github.com/nbasyl/OFQ)]
+- "PSAQ-ViT V2: Towards Accurate and General Data-Free Quantization for Vision Transformers", TNNLS, 2023. [[paper](https://arxiv.org/abs/2209.05687)] 
 - "Variation-aware Vision Transformer Quantization", arXiv, 2023. [[paper](http://arxiv.org/abs/2307.00331)]
 - "NoisyQuant: Noisy Bias-Enhanced Post-Training Activation Quantization for Vision Transformers", CVPR, 2023. [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_NoisyQuant_Noisy_Bias-Enhanced_Post-Training_Activation_Quantization_for_Vision_Transformers_CVPR_2023_paper.pdf)]  [**`PTQ`**]
 - "Boost Vision Transformer with GPU-Friendly Sparsity and Quantization", CVPR, 2023. [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Boost_Vision_Transformer_With_GPU-Friendly_Sparsity_and_Quantization_CVPR_2023_paper.pdf)] 
 - "Q-DETR: An Efficient Low-Bit Quantized Detection Transformer", CVPR, 2023. [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Xu_Q-DETR_An_Efficient_Low-Bit_Quantized_Detection_Transformer_CVPR_2023_paper.html)]
 - "Output Sensitivity-Aware DETR Quantization", 2023. [[paper](https://practical-dl.github.io/2023/extended_abstract/4/CameraReady/4.pdf)]
-- "PSAQ-ViT V2: Towards Accurate and General Data-Free Quantization for Vision Transformers", arXiv, 2022. [[paper](https://arxiv.org/abs/2209.05687)] 
 - "Q-HyViT: Post-Training Quantization for Hybrid Vision Transformer with Bridge Block Reconstruction", arXiv, 2023. [[paper](https://arxiv.org/abs/2303.12557)]  [**`PTQ`**]
 - "Q-ViT: Accurate and Fully Quantized Low-bit Vision Transformer", NeurIPS, 2022. [[paper](https://openreview.net/forum?id=fU-m9kQe0ke)] [[code](https://github.com/yanjingli0202/q-vit)]
 - "Patch Similarity Aware Data-Free Quantization for Vision Transformers", ECCV, 2022. [[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710154.pdf)] [[code](https://github.com/zkkli/psaq-vit)]  [**`PTQ`**]
@@ -187,6 +188,8 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ### Language Transformers
 - "SqueezeLLM: Dense-and-Sparse Quantization", arXiv, 2023. [[paper](https://arxiv.org/abs/2306.07629)] [**`PTQ`**] [**`Non-uniform`**]
+- "NUPES : Non-Uniform Post-Training Quantization via Power Exponent Search", arXiv, 2023. [[paper](http://arxiv.org/abs/2308.05600)] [**`Non-uniform`**]
+- "QuIP: 2-Bit Quantization of Large Language Models With Guarantees", arXiv, 2023. [[paper](http://arxiv.org/abs/2307.13304)] [**`PTQ`**]
 - "ZeroQuant-FP: A Leap Forward in LLMs Post-Training W4A8 Quantization Using Floating-Point Formats", arXiv, 2023. [[paper](http://arxiv.org/abs/2307.09782)]
 - "Self-Distilled Quantization: Achieving High Compression Rates in Transformer-Based Language Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2307.05972)]
 - "Do Emergent Abilities Exist in Quantized Large Language Models: An Empirical Study", arXiv, 2023. [[paper](https://arxiv.org/abs/2307.08072)]
