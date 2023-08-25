@@ -167,7 +167,8 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 ### Vision Transformers
 - "RepQ-ViT: Scale Reparameterization for Post-Training Quantization of Vision Transformers", ICCV, 2023. [[paper](https://arxiv.org/abs/2212.08254)] [[code](https://github.com/zkkli/RepQ-ViT)] [**`PTQ`**]
 - "I-ViT: Integer-only Quantization for Efficient Vision Transformer Inference", ICCV, 2023. [[paper](https://arxiv.org/abs/2207.01405)] [[code](https://github.com/zkkli/I-ViT)]
-- "QD-BEV: Quantization-aware View-guided Distillation for Multi-view 3D Object Detection", ICCV, 2023. [[paper](https://practical-dl.github.io/2023/extended_abstract/22/CameraReady/22.pdf)]
+- "QD-BEV: Quantization-aware View-guided Distillation for Multi-view 3D Object Detection", ICCV, 2023. [[paper](https://arxiv.org/abs/2308.10515)]
+- "Jumping through Local Minima: Quantization in the Loss Landscape of Vision Transformers", arXiv, 2023. [[paper](http://arxiv.org/abs/2308.10814)]
 - "Oscillation-free Quantization for Low-bit Vision Transformers", ICML, 2023. [[paper](https://openreview.net/forum?id=DihXH24AdY)] [[code](https://github.com/nbasyl/OFQ)]
 - "PSAQ-ViT V2: Towards Accurate and General Data-Free Quantization for Vision Transformers", TNNLS, 2023. [[paper](https://arxiv.org/abs/2209.05687)] 
 - "Variation-aware Vision Transformer Quantization", arXiv, 2023. [[paper](http://arxiv.org/abs/2307.00331)]
@@ -188,6 +189,8 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ### Language Transformers
 - "SqueezeLLM: Dense-and-Sparse Quantization", arXiv, 2023. [[paper](https://arxiv.org/abs/2306.07629)] [**`PTQ`**] [**`Non-uniform`**]
+- "FineQuant: Unlocking Efficiency with Fine-Grained Weight-Only Quantization for LLMs", arXiv, 2023. [[paper](http://arxiv.org/abs/2308.09723)] [**`PTQ`**]
+- "Gradient-Based Post-Training Quantization: Challenging the Status Quo", arXiv, 2023. [[paper](http://arxiv.org/abs/2308.07662)] [**`PTQ`**]
 - "NUPES : Non-Uniform Post-Training Quantization via Power Exponent Search", arXiv, 2023. [[paper](http://arxiv.org/abs/2308.05600)] [**`Non-uniform`**]
 - "QuIP: 2-Bit Quantization of Large Language Models With Guarantees", arXiv, 2023. [[paper](http://arxiv.org/abs/2307.13304)] [**`PTQ`**]
 - "ZeroQuant-FP: A Leap Forward in LLMs Post-Training W4A8 Quantization Using Floating-Point Formats", arXiv, 2023. [[paper](http://arxiv.org/abs/2307.09782)]
