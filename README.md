@@ -164,7 +164,8 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "BiPointNet: Binary Neural Network for Point Clouds", ICLR, 2021. [[paper](https://openreview.net/forum?id=9QLRCVysdlO)]  [[code](https://github.com/htqin/BiPointNet)] [**`Extreme`**]
 
 #### Visual Generation
-- "Q-diffusion: Quantizing Diffusion Models", ICCV, 2023. [[paper](https://arxiv.org/abs/2302.04304)] [[code](https://github.com/Xiuyu-Li/q-diffusion)] [**`PTQ`**]
+- "EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2310.03270)]
+- "Q-diffusion: Quantizing Diffusion Models", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)] [[code](https://github.com/Xiuyu-Li/q-diffusion)] [**`PTQ`**]
 - "Temporal Dynamic Quantization for Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2306.02316)] 
 - "Towards Accurate Data-free Quantization for Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2305.18723)] [**`PTQ`**]
 - "Post-training Quantization on Diffusion Models", CVPR, 2023. [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.html)] [[code](https://https//github.com/42Shawn/PTQ4DM)] [**`PTQ`**]
@@ -198,6 +199,16 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ### Language Transformers
 - "SqueezeLLM: Dense-and-Sparse Quantization", arXiv, 2023. [[paper](https://arxiv.org/abs/2306.07629)] [**`PTQ`**] [**`Non-uniform`**]
+- "Rethinking Channel Dimensions to Isolate Outliers for Low-bit Weight Quantization of Large Language Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2309.15531)]
+- "QA-LoRA: Quantization-Aware Low-Rank Adaptation of Large Language Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2309.14717)]
+- "Efficient Post-training Quantization with FP8 Formats", arXiv, 2023. [[paper](http://arxiv.org/abs/2309.14592)]
+- "Probabilistic Weight Fixing: Large-scale training of neural network weight uncertainties for quantization", arXiv, 2023. [[paper](http://arxiv.org/abs/2309.13575)]
+- "Optimize Weight Rounding via Signed Gradient Descent for the Quantization of LLMs", arXiv, 2023. [[paper](http://arxiv.org/abs/2309.05516)]
+- "Norm Tweaking: High-performance Low-bit Quantization of Large Language Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2309.02784)]
+- "Understanding the Impact of Post-Training Quantization on Large Language Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2309.05210)]
+- "QuantEase: Optimization-based Quantization for Language Models -- An Efficient and Intuitive Algorithm", arXiv, 2023. [[paper](http://arxiv.org/abs/2309.01885)]
+- "FPTQ: Fine-grained Post-Training Quantization for Large Language Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2308.15987)]
+- "OmniQuant: Omnidirectionally Calibrated Quantization for Large Language Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2308.13137)]
 - "FineQuant: Unlocking Efficiency with Fine-Grained Weight-Only Quantization for LLMs", arXiv, 2023. [[paper](http://arxiv.org/abs/2308.09723)] [**`PTQ`**]
 - "Gradient-Based Post-Training Quantization: Challenging the Status Quo", arXiv, 2023. [[paper](http://arxiv.org/abs/2308.07662)] [**`PTQ`**]
 - "NUPES : Non-Uniform Post-Training Quantization via Power Exponent Search", arXiv, 2023. [[paper](http://arxiv.org/abs/2308.05600)] [**`Non-uniform`**]
