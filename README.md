@@ -6,9 +6,11 @@ This repo is being actively updated, and contributions in any form to make this 
 
 If you find this repo useful, please consider **★STARing** and feel free to share it with others! <br>
 
-**[Update: July, 2023]** Add new papers from AAAI-23 and ICML-23. <br>
-**[Update: June, 2023]** Add new arXiv papers uploaded in May 2023, especially the hot LLM quantization field. <br>
-**[Update: June, 2023]** Reborn this repo! New style, better experience! <br>
+
+**[Update: Oct, 2023]** Add new papers from ICCV-23. <br>
+**[Update: Jul, 2023]** Add new papers from AAAI-23 and ICML-23. <br>
+**[Update: Jun, 2023]** Add new arXiv papers uploaded in May 2023, especially the hot LLM quantization field. <br>
+**[Update: Jun, 2023]** Reborn this repo! New style, better experience! <br>
 
 ---
 ## Overview
@@ -42,7 +44,13 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Convolutional Neural Networks
 ### Image Classification
-- "Unified Data-Free Compression: Pruning and Quantization without Fine-Tuning", ICCV, 2023. [[paper](http://arxiv.org/abs/2308.07209)] [**`PTQ`**]
+- "Overcoming Forgetting Catastrophe in Quantization-Aware Training", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Overcoming_Forgetting_Catastrophe_in_Quantization-Aware_Training_ICCV_2023_paper.pdf)]
+- "Causal-DFQ: Causality Guided Data-Free Network Quantization", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Shang_Causal-DFQ_Causality_Guided_Data-Free_Network_Quantization_ICCV_2023_paper.pdf)] [[code](https://github.com/42Shawn/Causal-DFQ)]
+- "DenseShift: Towards Accurate and Efficient Low-Bit Power-of-Two Quantization", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_DenseShift_Towards_Accurate_and_Efficient_Low-Bit_Power-of-Two_Quantization_ICCV_2023_paper.pdf)]
+- "EQ-Net: Elastic Quantization Neural Networks", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_EQ-Net_Elastic_Quantization_Neural_Networks_ICCV_2023_paper.pdf)] [[code](https://github.com/xuke225/EQ-Net)]
+- "A2Q: Accumulator-Aware Quantization with Guaranteed Overflow Avoidance", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Colbert_A2Q_Accumulator-Aware_Quantization_with_Guaranteed_Overflow_Avoidance_ICCV_2023_paper.pdf)]
+- "EMQ: Evolving Training-free Proxies for Automated Mixed Precision Quantization", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Dong_EMQ_Evolving_Training-free_Proxies_for_Automated_Mixed_Precision_Quantization_ICCV_2023_paper.pdf)] [**`MP`**]
+- "Unified Data-Free Compression: Pruning and Quantization without Fine-Tuning", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Bai_Unified_Data-Free_Compression_Pruning_and_Quantization_without_Fine-Tuning_ICCV_2023_paper.pdf)] [**`PTQ`**]
 - "Few-bit Backward: Quantized Gradients of Activation Functions for Memory Footprint Reduction", ICML, 2023. [[paper](https://openreview.net/forum?id=m2S96Qf2R3)] [[code](https://github.com/SkoltechAI/fewbit)]
 - "FlexRound: Learnable Rounding based on Element-wise Division for Post-Training Quantization", ICML, 2023. [[paper](https://openreview.net/forum?id=EPnzNJTYsb)] [**`PTQ`**]
 - "Data-Free Quantization via Mixed-Precision Compensation without Fine-Tuning", PR, 2023. [[paper](http://arxiv.org/abs/2307.00498)]
@@ -165,10 +173,11 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Transformer-based Models
 ### Vision Transformers
-- "RepQ-ViT: Scale Reparameterization for Post-Training Quantization of Vision Transformers", ICCV, 2023. [[paper](https://arxiv.org/abs/2212.08254)] [[code](https://github.com/zkkli/RepQ-ViT)] [**`PTQ`**]
-- "I-ViT: Integer-only Quantization for Efficient Vision Transformer Inference", ICCV, 2023. [[paper](https://arxiv.org/abs/2207.01405)] [[code](https://github.com/zkkli/I-ViT)]
-- "QD-BEV: Quantization-aware View-guided Distillation for Multi-view 3D Object Detection", ICCV, 2023. [[paper](https://arxiv.org/abs/2308.10515)]
-- "Jumping through Local Minima: Quantization in the Loss Landscape of Vision Transformers", arXiv, 2023. [[paper](http://arxiv.org/abs/2308.10814)]
+- "I-ViT: Integer-only Quantization for Efficient Vision Transformer Inference", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_I-ViT_Integer-only_Quantization_for_Efficient_Vision_Transformer_Inference_ICCV_2023_paper.pdf)] [[code](https://github.com/zkkli/I-ViT)]
+- "RepQ-ViT: Scale Reparameterization for Post-Training Quantization of Vision Transformers", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_RepQ-ViT_Scale_Reparameterization_for_Post-Training_Quantization_of_Vision_Transformers_ICCV_2023_paper.pdf)] [[code](https://github.com/zkkli/RepQ-ViT)] [**`PTQ`**]
+- "QD-BEV: Quantization-aware View-guided Distillation for Multi-view 3D Object Detection", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_QD-BEV__Quantization-aware_View-guided_Distillation_for_Multi-view_3D_Object_Detection_ICCV_2023_paper.pdf)]
+- "BiViT: Extremely Compressed Binary Vision Transformers", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/He_BiViT_Extremely_Compressed_Binary_Vision_Transformers_ICCV_2023_paper.pdf)] [**`Extreme`**]
+- "Jumping through Local Minima: Quantization in the Loss Landscape of Vision Transformers", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Frumkin_Jumping_through_Local_Minima_Quantization_in_the_Loss_Landscape_of_ICCV_2023_paper.pdf)]
 - "Oscillation-free Quantization for Low-bit Vision Transformers", ICML, 2023. [[paper](https://openreview.net/forum?id=DihXH24AdY)] [[code](https://github.com/nbasyl/OFQ)]
 - "PSAQ-ViT V2: Towards Accurate and General Data-Free Quantization for Vision Transformers", TNNLS, 2023. [[paper](https://arxiv.org/abs/2209.05687)] 
 - "Variation-aware Vision Transformer Quantization", arXiv, 2023. [[paper](http://arxiv.org/abs/2307.00331)]
