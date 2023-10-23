@@ -199,6 +199,11 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ### Language Transformers
 - "SqueezeLLM: Dense-and-Sparse Quantization", arXiv, 2023. [[paper](https://arxiv.org/abs/2306.07629)] [**`PTQ`**] [**`Non-uniform`**]
+- "QFT: Quantized Full-parameter Tuning of LLMs with Affordable Resources", arXiv, 2023. [[paper](https://arxiv.org/abs/2310.07147)]
+- "PB-LLM: Partially Binarized Large Language Models", arXiv, 2023. [[paper](https://arxiv.org/abs/2310.00034)] [**`Extreme`**]
+- "TEQ: Trainable Equivalent Transformation for Quantization of LLMs", arXiv, 2023. [[paper](http://arxiv.org/abs/2310.10944)]
+- "LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2310.08659)]
+- "QLLM: Accurate and Efficient Low-Bitwidth Quantization for Large Language Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2310.08041)] [**`PTQ`**]
 - "Rethinking Channel Dimensions to Isolate Outliers for Low-bit Weight Quantization of Large Language Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2309.15531)]
 - "QA-LoRA: Quantization-Aware Low-Rank Adaptation of Large Language Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2309.14717)]
 - "Efficient Post-training Quantization with FP8 Formats", arXiv, 2023. [[paper](http://arxiv.org/abs/2309.14592)]
