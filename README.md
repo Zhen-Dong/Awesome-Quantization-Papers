@@ -69,6 +69,9 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 [[Back to Overview](#overview)]
 
 ### Language Transformers
+- "A Speed Odyssey for Deployable Quantization of LLMs", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.09550)]
+- "AFPQ: Asymmetric Floating Point Quantization for LLMs", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.01792)]
+- "Enabling Fast 2-bit LLM on GPUs: Memory Alignment, Sparse Outlier, and Asynchronous Dequantization", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.16442)]
 - "QLoRA: Efficient Finetuning of Quantized LLMs", NeurIPS, 2023. [[paper](https://neurips.cc/virtual/2023/poster/71815)] [[code](https://github.com/artidoro/qlora)]
 - "QuIP: 2-Bit Quantization of Large Language Models With Guarantees", NeurIPS, 2023. [[paper](https://neurips.cc/virtual/2023/poster/69982)] [[code](https://github.com/jerry-chee/QuIP)] [**`PTQ`**]
 - "Memory-Efficient Fine-Tuning of Compressed Large Language Models via sub-4-bit Integer Quantization", NeurIPS, 2023. [[paper](https://neurips.cc/virtual/2023/poster/72931)]
@@ -137,6 +140,9 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Convolutional Neural Networks
 ### Visual Generation
+- "TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.16503)]
+- "Post-training Quantization with Progressive Calibration and Activation Relaxing for Text-to-Image Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.06322)]
+- "Effective Quantization for Diffusion Models on CPUs", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.16133)]
 - "PTQD: Accurate Post-Training Quantization for Diffusion Models", NeurIPS, 2023. [[paper](https://neurips.cc/virtual/2023/poster/71314)] [**`PTQ`**]
 - "Q-DM: An Efficient Low-bit Quantized Diffusion Model", NeurIPS, 2023. [[paper](https://neurips.cc/virtual/2023/poster/70279)]
 - "Temporal Dynamic Quantization for Diffusion Models", NeurIPS, 2023. [[paper](https://neurips.cc/virtual/2023/poster/72396)]
