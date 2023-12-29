@@ -69,6 +69,11 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 [[Back to Overview](#overview)]
 
 ### Language Transformers
+- "ZeroQuant(4+2): Redefining LLMs Quantization with a New FP6-Centric Strategy for Diverse Generative Tasks", arXiv, 2023. [[paper](http://arxiv.org/abs/2312.08583)] [**`PTQ`**]
+- "CBQ: Cross-Block Quantization for Large Language Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2312.07950)] [**`PTQ`**]
+- "FP8-BERT: Post-Training Quantization for Transformer", arXiv, 2023. [[paper](http://arxiv.org/abs/2312.05725)] [**`PTQ`**]
+- "Agile-Quant: Activation-Guided Quantization for Faster Inference of LLMs on the Edge", arXiv, 2023. [[paper](http://arxiv.org/abs/2312.05693)]
+- "SmoothQuant+: Accurate and Efficient 4-bit Post-Training WeightQuantization for LLM", arXiv, 2023. [[paper](http://arxiv.org/abs/2312.03788)] [**`PTQ`**]
 - "A Speed Odyssey for Deployable Quantization of LLMs", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.09550)]
 - "AFPQ: Asymmetric Floating Point Quantization for LLMs", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.01792)]
 - "Enabling Fast 2-bit LLM on GPUs: Memory Alignment, Sparse Outlier, and Asynchronous Dequantization", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.16442)]
@@ -140,6 +145,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Convolutional Neural Networks
 ### Visual Generation
+- "Efficient Quantization Strategies for Latent Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2312.05431)] [**`PTQ`**]
 - "TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.16503)]
 - "Post-training Quantization with Progressive Calibration and Activation Relaxing for Text-to-Image Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.06322)]
 - "Effective Quantization for Diffusion Models on CPUs", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.16133)]
@@ -152,6 +158,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "Post-training Quantization on Diffusion Models", CVPR, 2023. [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.html)] [[code](https://https//github.com/42Shawn/PTQ4DM)] [**`PTQ`**]
 
 ### Image Classification
+- "StableQ: Enhancing Data-Scarce Quantization with Text-to-Image Data", arXiv, 2023. [[paper](http://arxiv.org/abs/2312.05272)]
 - "Understanding Neural Network Binarization with Forward and Backward Proximal Quantizers", NeurIPS, 2023. [[paper](https://neurips.cc/virtual/2023/poster/71526)] [**`Extreme`**]
 - "TexQ: Zero-shot Network Quantization with Texture Feature Distribution Calibration", NeurIPS, 2023. [[paper](https://neurips.cc/virtual/2023/poster/70325)]
 - "Overcoming Forgetting Catastrophe in Quantization-Aware Training", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Overcoming_Forgetting_Catastrophe_in_Quantization-Aware_Training_ICCV_2023_paper.pdf)]
