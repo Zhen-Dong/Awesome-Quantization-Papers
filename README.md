@@ -15,7 +15,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 ---
 ## Overview
 
-- [Awesome-Quantization-Papers](#awesome-quantization-papers)
+- [Awesome-Quantization-Papers ](#awesome-quantization-papers-)
   - [Overview](#overview)
   - [Survey](#survey)
   - [Transformer-based Models](#transformer-based-models)
@@ -71,6 +71,16 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 [[Back to Overview](#overview)]
 
 ### Language Transformers
+- "EasyQuant: An Efficient Data-free Quantization Algorithm for LLMs", arXiv, 2024. [[paper](http://arxiv.org/abs/2403.02775)]
+- "IntactKV: Improving Large Language Model Quantization by Keeping Pivot Tokens Intact", arXiv, 2024. [[paper](http://arxiv.org/abs/2403.01241)]
+- "FlattenQuant: Breaking Through the Inference Compute-bound for Large Language Models with Per-tensor Quantization", arXiv, 2024. [[paper](http://arxiv.org/abs/2402.17985)]
+- "A Comprehensive Evaluation of Quantization Strategies for Large Language Models", arXiv, 2024. [[paper](http://arxiv.org/abs/2402.16775)]
+- "GPTVQ: The Blessing of Dimensionality for LLM Quantization", arXiv, 2024. [[paper](http://arxiv.org/abs/2402.15319)]
+- "APTQ: Attention-aware Post-Training Mixed-Precision Quantization for Large Language Models", arXiv, 2024. [[paper](http://arxiv.org/abs/2402.14866)]
+- "EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for the Acceleration of Lightweight LLMs on the Edge", arXiv, 2024. [[paper](http://arxiv.org/abs/2402.10787)]
+- "RepQuant: Towards Accurate Post-Training Quantization of Large Transformer Models via Scale Reparameterization", arXiv, 2024. [[paper](http://arxiv.org/abs/2402.05628)]
+- "Accurate LoRA-Finetuning Quantization of LLMs via Information Retention", arXiv, 2024. [[paper](http://arxiv.org/abs/2402.05445)]
+- "BiLLM: Pushing the Limit of Post-Training Quantization for LLMs", arXiv, 2024. [[paper](http://arxiv.org/abs/2402.04291)]
 - "KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization", arXiv, 2023. [[paper](http://arxiv.org/abs/2401.18079)]
 - "Extreme Compression of Large Language Models via Additive Quantization", arXiv, 2023. [[paper](http://arxiv.org/abs/2401.06118)]
 - "ZeroQuant(4+2): Redefining LLMs Quantization with a New FP6-Centric Strategy for Diverse Generative Tasks", arXiv, 2023. [[paper](http://arxiv.org/abs/2312.08583)] [**`PTQ`**]
@@ -149,6 +159,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Convolutional Neural Networks
 ### Visual Generation
+- "QuEST: Low-bit Diffusion Model Quantization via Efficient Selective Finetuning", arXiv, 2024. [[paper](http://arxiv.org/abs/2402.03666)]
 - "Enhanced Distribution Alignment for Post-Training Quantization of Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2401.04585)]
 - "Efficient Quantization Strategies for Latent Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2312.05431)] [**`PTQ`**]
 - "TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.16503)]
