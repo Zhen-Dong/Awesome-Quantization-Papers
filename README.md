@@ -6,6 +6,7 @@ This repo is being actively updated, and contributions in any form to make this 
 
 If you find this repo useful, please consider **★STARing** and feel free to share it with others! <br>
 
+**[Update: Apr, 2024]** Add new papers from AAAI-24. <br>
 **[Update: Nov, 2023]** Add new papers from NeurIPS-23. <br>
 **[Update: Oct, 2023]** Add new papers from ICCV-23. <br>
 **[Update: Jul, 2023]** Add new papers from AAAI-23 and ICML-23. <br>
@@ -44,6 +45,8 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Transformer-based Models
 ### Vision Transformers
+- "Bi-ViT: Pushing the Limit of Vision Transformer Quantization", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28109)] [**`Extreme`**]
+- "AQ-DETR: Low-Bit Quantized Detection Transformer with Auxiliary Queries", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29487)]
 - "LRP-QViT: Mixed-Precision Vision Transformer Quantization via Layer-wise Relevance Propagation", arXiv, 2023. [[paper](http://arxiv.org/abs/2401.11243)] [**`PTQ`**] [**`MP`**] 
 - "MPTQ-ViT: Mixed-Precision Post-Training Quantization for Vision Transformer", arXiv, 2023. [[paper](http://arxiv.org/abs/2401.14895)] [**`PTQ`**] [**`MP`**] 
 - "I-ViT: Integer-only Quantization for Efficient Vision Transformer Inference", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_I-ViT_Integer-only_Quantization_for_Efficient_Vision_Transformer_Inference_ICCV_2023_paper.pdf)] [[code](https://github.com/zkkli/I-ViT)]
@@ -71,6 +74,11 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 [[Back to Overview](#overview)]
 
 ### Language Transformers
+- "OWQ: Outlier-Aware Weight Quantization for Efficient Fine-Tuning and Inference of Large Language Models", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29237)]
+- "Norm Tweaking: High-Performance Low-Bit Quantization of Large Language Models", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29815)]
+- "Agile-Quant: Activation-Guided Quantization for Faster Inference of LLMs on the Edge", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29860)]
+- "Exploring Post-training Quantization in LLMs from Comprehensive Study to Low Rank Compensation", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29908)]  [**`PTQ`**]
+- "What Makes Quantization for Large Language Model Hard? An Empirical Study from the Lens of Perturbation", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29765)]
 - "EasyQuant: An Efficient Data-free Quantization Algorithm for LLMs", arXiv, 2024. [[paper](http://arxiv.org/abs/2403.02775)]
 - "IntactKV: Improving Large Language Model Quantization by Keeping Pivot Tokens Intact", arXiv, 2024. [[paper](http://arxiv.org/abs/2403.01241)]
 - "FlattenQuant: Breaking Through the Inference Compute-bound for Large Language Models with Per-tensor Quantization", arXiv, 2024. [[paper](http://arxiv.org/abs/2402.17985)]
@@ -174,6 +182,10 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "Post-training Quantization on Diffusion Models", CVPR, 2023. [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.html)] [[code](https://https//github.com/42Shawn/PTQ4DM)] [**`PTQ`**]
 
 ### Image Classification
+- "Make RepVGG Greater Again: A Quantization-Aware Approach", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29045)]
+- "MetaMix: Meta-State Precision Searcher for Mixed-Precision Activation Quantization", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29212)] [**`MP`**] 
+- "Robustness-Guided Image Synthesis for Data-Free Quantization", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28972)]
+- "PTMQ: Post-training Multi-Bit Quantization of Neural Networks", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29553)] [**`PTQ`**]
 - "Trainable Fixed-Point Quantization for Deep Learning Acceleration on FPGAs", arXiv, 2023. [[paper](http://arxiv.org/abs/2401.17544)]
 - "StableQ: Enhancing Data-Scarce Quantization with Text-to-Image Data", arXiv, 2023. [[paper](http://arxiv.org/abs/2312.05272)]
 - "Understanding Neural Network Binarization with Forward and Backward Proximal Quantizers", NeurIPS, 2023. [[paper](https://neurips.cc/virtual/2023/poster/71526)] [**`Extreme`**]
