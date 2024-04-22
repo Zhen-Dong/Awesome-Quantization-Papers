@@ -207,7 +207,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "Fast and Accurate Binary Neural Networks Based on Depth-Width Reshaping", AAAI, 2023. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26268)] [**`Extreme`**]
 - "Efficient Quantization-aware Training with Adaptive Coreset Selection", arXiv, 2023. [[paper](http://arxiv.org/abs/2306.07215)] 
 - "One-Shot Model for Mixed-Precision Quantization", CVPR, 2023. [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Koryakovskiy_One-Shot_Model_for_Mixed-Precision_Quantization_CVPR_2023_paper.pdf)] [**`MP`**]
-- "Adaptive Data-Free Quantization", CVPR, 2023. [[paper](https://arxiv.org/abs/2303.06869)] 
+- "Adaptive Data-Free Quantization", CVPR, 2023. [[paper](https://arxiv.org/abs/2303.06869)] [[code](https://github.com/hfutqian/AdaDFQ)] 
 - "Bit-shrinking: Limiting Instantaneous Sharpness for Improving Post-training Quantization", CVPR, 2023. [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Bit-Shrinking_Limiting_Instantaneous_Sharpness_for_Improving_Post-Training_Quantization_CVPR_2023_paper.pdf)] [**`PTQ`**]
 - "Solving Oscillation Problem in Post-Training Quantization Through a Theoretical Perspective", CVPR, 2023. [[paper](https://arxiv.org/pdf/2303.11906.pdf)] [[code](https://github.com/bytedance/mrecg)] [**`PTQ`**]
 - "GENIE: Show Me the Data for Quantization", CVPR, 2023. [[paper](https://arxiv.org/abs/2212.04780)] [[code](https://github.com/SamsungLabs/Genie)] [**`PTQ`**]
