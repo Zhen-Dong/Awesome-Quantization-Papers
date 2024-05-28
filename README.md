@@ -184,6 +184,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "Post-training Quantization on Diffusion Models", CVPR, 2023. [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.html)] [[code](https://https//github.com/42Shawn/PTQ4DM)] [**`PTQ`**]
 
 ### Image Classification
+- "Post-Training Quantization with Low-precision Minifloats and Integers on FPGAs", arXiv, 2023. [[paper](https://arxiv.org/abs/2311.12359)] [**`PTQ`**]
 - "Make RepVGG Greater Again: A Quantization-Aware Approach", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29045)]
 - "MetaMix: Meta-State Precision Searcher for Mixed-Precision Activation Quantization", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29212)] [**`MP`**] 
 - "Robustness-Guided Image Synthesis for Data-Free Quantization", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28972)]
