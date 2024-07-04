@@ -6,6 +6,7 @@ This repo is being actively updated, and contributions in any form to make this 
 
 If you find this repo useful, please consider **★STARing** and feel free to share it with others! <br>
 
+**[Update: Jul, 2024]** Add new papers from CVPR-24. <br>
 **[Update: May, 2024]** Add new papers from ICLR-24. <br>
 **[Update: Apr, 2024]** Add new papers from AAAI-24. <br>
 **[Update: Nov, 2023]** Add new papers from NeurIPS-23. <br>
@@ -46,6 +47,8 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Transformer-based Models
 ### Vision Transformers
+- "PTQ4SAM: Post-Training Quantization for Segment Anything", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Lv_PTQ4SAM_Post-Training_Quantization_for_Segment_Anything_CVPR_2024_paper.html)] [**`PTQ`**]
+- "Instance-Aware Group Quantization for Vision Transformers", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Moon_Instance-Aware_Group_Quantization_for_Vision_Transformers_CVPR_2024_paper.html)] [**`PTQ`**]
 - "Bi-ViT: Pushing the Limit of Vision Transformer Quantization", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28109)] [**`Extreme`**]
 - "AQ-DETR: Low-Bit Quantized Detection Transformer with Auxiliary Queries", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29487)]
 - "LRP-QViT: Mixed-Precision Vision Transformer Quantization via Layer-wise Relevance Propagation", arXiv, 2023. [[paper](http://arxiv.org/abs/2401.11243)] [**`PTQ`**] [**`MP`**] 
@@ -75,7 +78,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 [[Back to Overview](#overview)]
 
 ### Language Transformers
-- "- "OmniQuant: Omnidirectionally Calibrated Quantization for Large Language Models", ICLR, 2024. [[paper](https://openreview.net/forum?id=8Wuvhh0LYW)]"
+- "OmniQuant: Omnidirectionally Calibrated Quantization for Large Language Models", ICLR, 2024. [[paper](https://openreview.net/forum?id=8Wuvhh0LYW)]"
 - "LoftQ: LoRA-Fine-Tuning-aware Quantization for Large Language Models", ICLR, 2024. [[paper](https://openreview.net/forum?id=LzPWWPAdY4)]
 - "SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression", ICLR, 2024. [[paper](https://openreview.net/forum?id=Q1u25ahSuy)] [**`PTQ`**]
 - "QA-LoRA: Quantization-Aware Low-Rank Adaptation of Large Language Models", ICLR, 2024. [[paper](https://openreview.net/forum?id=WvFoJccpo8)]
@@ -169,11 +172,12 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Convolutional Neural Networks
 ### Visual Generation
+- "TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Huang_TFMQ-DM_Temporal_Feature_Maintenance_Quantization_for_Diffusion_Models_CVPR_2024_paper.html)] [**`PTQ`**]
+- "Towards Accurate Post-training Quantization for Diffusion Models", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Towards_Accurate_Post-training_Quantization_for_Diffusion_Models_CVPR_2024_paper.html)] [**`PTQ`**]
 - "EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models", ICLR, 2024. [[paper](https://openreview.net/forum?id=UmMa3UNDAz)]
 - "QuEST: Low-bit Diffusion Model Quantization via Efficient Selective Finetuning", arXiv, 2024. [[paper](http://arxiv.org/abs/2402.03666)]
 - "Enhanced Distribution Alignment for Post-Training Quantization of Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2401.04585)]
 - "Efficient Quantization Strategies for Latent Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2312.05431)] [**`PTQ`**]
-- "TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.16503)]
 - "Post-training Quantization with Progressive Calibration and Activation Relaxing for Text-to-Image Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.06322)]
 - "Effective Quantization for Diffusion Models on CPUs", arXiv, 2023. [[paper](http://arxiv.org/abs/2311.16133)]
 - "PTQD: Accurate Post-Training Quantization for Diffusion Models", NeurIPS, 2023. [[paper](https://neurips.cc/virtual/2023/poster/71314)] [**`PTQ`**]
@@ -184,6 +188,10 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "Post-training Quantization on Diffusion Models", CVPR, 2023. [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.html)] [[code](https://https//github.com/42Shawn/PTQ4DM)] [**`PTQ`**]
 
 ### Image Classification
+- "Retraining-Free Model Quantization via One-Shot Weight-Coupling Learning", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Tang_Retraining-Free_Model_Quantization_via_One-Shot_Weight-Coupling_Learning_CVPR_2024_paper.html)] [**`MP`**]
+- "Mixed-Precision Quantization for Federated Learning on Resource-Constrained Heterogeneous Devices", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_Mixed-Precision_Quantization_for_Federated_Learning_on_Resource-Constrained_Heterogeneous_Devices_CVPR_2024_paper.html)] [**`MP`**]
+- "Enhancing Post-training Quantization Calibration through Contrastive Learning", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Shang_Enhancing_Post-training_Quantization_Calibration_through_Contrastive_Learning_CVPR_2024_paper.html)] [**`PTQ`**]
+- "Data-Free Quantization via Pseudo-label Filtering", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Fan_Data-Free_Quantization_via_Pseudo-label_Filtering_CVPR_2024_paper.html)]
 - "Make RepVGG Greater Again: A Quantization-Aware Approach", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29045)]
 - "MetaMix: Meta-State Precision Searcher for Mixed-Precision Activation Quantization", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29212)] [**`MP`**] 
 - "Robustness-Guided Image Synthesis for Data-Free Quantization", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28972)]
@@ -289,6 +297,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ### Other Tasks
 #### Object Detection
+- "Reg-PTQ: Regression-specialized Post-training Quantization for Fully Quantized Object Detector", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Ding_Reg-PTQ_Regression-specialized_Post-training_Quantization_for_Fully_Quantized_Object_Detector_CVPR_2024_paper.html)] [**`PTQ`**]
 - "Improving Post-Training Quantization on Object Detection with Task Loss-Guided Lp Metric", arXiv, 2023. [[paper](https://arxiv.org/abs/2304.09785)]  [**`PTQ`**]
 - "AQD: Towards Accurate Quantized Object Detection", CVPR, 2021. [[paper](http://arxiv.org/abs/2007.06919)]
 - "BiDet: An Efficient Binarized Object Detector", CVPR, 2020. [[paper](https://arxiv.org/abs/2003.03961)] [[code](https://github.com/ZiweiWangTHU/BiDet)] [**`Extreme`**]
