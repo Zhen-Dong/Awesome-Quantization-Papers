@@ -6,6 +6,7 @@ This repo is being actively updated, and contributions in any form to make this 
 
 If you find this repo useful, please consider **★STARing** and feel free to share it with others! <br>
 
+**[Update: Sep, 2024]** Add new papers from ICML-24 and IJCAI-24. <br>
 **[Update: Jul, 2024]** Add new papers from CVPR-24. <br>
 **[Update: May, 2024]** Add new papers from ICLR-24. <br>
 **[Update: Apr, 2024]** Add new papers from AAAI-24. <br>
@@ -47,6 +48,8 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Transformer-based Models
 ### Vision Transformers
+- "ERQ: Error Reduction for Post-Training Quantization of Vision Transformers", ICML, 2024. [[paper](https://openreview.net/forum?id=jKUWlgra9b)] [**`PTQ`**]
+- "Outlier-aware Slicing for Post-Training Quantization in Vision Transformer", ICML, 2024. [[paper](https://openreview.net/forum?id=Uh5XN9d2J4)] [**`PTQ`**]
 - "PTQ4SAM: Post-Training Quantization for Segment Anything", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Lv_PTQ4SAM_Post-Training_Quantization_for_Segment_Anything_CVPR_2024_paper.html)] [**`PTQ`**]
 - "Instance-Aware Group Quantization for Vision Transformers", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Moon_Instance-Aware_Group_Quantization_for_Vision_Transformers_CVPR_2024_paper.html)] [**`PTQ`**]
 - "Bi-ViT: Pushing the Limit of Vision Transformer Quantization", AAAI, 2024. [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28109)] [**`Extreme`**]
@@ -78,6 +81,15 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 [[Back to Overview](#overview)]
 
 ### Language Transformers
+- "Evaluating Quantized Large Language Models", ICML, 2024. [[paper](https://openreview.net/forum?id=DKKg5EFAFr)]
+- "SqueezeLLM: Dense-and-Sparse Quantization", ICML, 2024. [[paper](https://openreview.net/forum?id=0jpbpFia8m)] [**`PTQ`**] [**`Non-uniform`**]
+- "KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache", ICML, 2024. [[paper](https://openreview.net/forum?id=L057s2Rq8O)]
+- "LQER: Low-Rank Quantization Error Reconstruction for LLMs", ICML, 2024. [[paper](https://openreview.net/forum?id=dh8k41g775)]
+- "Extreme Compression of Large Language Models via Additive Quantization", ICML, 2024. [[paper](https://openreview.net/forum?id=5mCaITRTmO)]
+- "BiE: Bi-Exponent Block Floating-Point for Large Language Models Quantization", ICML, 2024. [[paper](https://openreview.net/forum?id=DbyHDYslM7)]
+- "BiLLM: Pushing the Limit of Post-Training Quantization for LLMs", ICML, 2024. [[paper](https://openreview.net/forum?id=qOl2WWOqFg)]
+- "Compressing Large Language Models by Joint Sparsification and Quantization", ICML, 2024. [[paper](https://openreview.net/forum?id=sCGRhnuMUJ)]
+- "FrameQuant: Flexible Low-Bit Quantization for Transformers", ICML, 2024. [[paper](https://openreview.net/forum?id=xPypr0kufs)] [**`PTQ`**]
 - "OmniQuant: Omnidirectionally Calibrated Quantization for Large Language Models", ICLR, 2024. [[paper](https://openreview.net/forum?id=8Wuvhh0LYW)]"
 - "LoftQ: LoRA-Fine-Tuning-aware Quantization for Large Language Models", ICLR, 2024. [[paper](https://openreview.net/forum?id=LzPWWPAdY4)]
 - "SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression", ICLR, 2024. [[paper](https://openreview.net/forum?id=Q1u25ahSuy)] [**`PTQ`**]
@@ -101,7 +113,6 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for the Acceleration of Lightweight LLMs on the Edge", arXiv, 2024. [[paper](http://arxiv.org/abs/2402.10787)]
 - "RepQuant: Towards Accurate Post-Training Quantization of Large Transformer Models via Scale Reparameterization", arXiv, 2024. [[paper](http://arxiv.org/abs/2402.05628)]
 - "Accurate LoRA-Finetuning Quantization of LLMs via Information Retention", arXiv, 2024. [[paper](http://arxiv.org/abs/2402.05445)]
-- "BiLLM: Pushing the Limit of Post-Training Quantization for LLMs", arXiv, 2024. [[paper](http://arxiv.org/abs/2402.04291)]
 - "KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization", arXiv, 2023. [[paper](http://arxiv.org/abs/2401.18079)]
 - "Extreme Compression of Large Language Models via Additive Quantization", arXiv, 2023. [[paper](http://arxiv.org/abs/2401.06118)]
 - "ZeroQuant(4+2): Redefining LLMs Quantization with a New FP6-Centric Strategy for Diverse Generative Tasks", arXiv, 2023. [[paper](http://arxiv.org/abs/2312.08583)] [**`PTQ`**]
@@ -115,7 +126,6 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "QLoRA: Efficient Finetuning of Quantized LLMs", NeurIPS, 2023. [[paper](https://neurips.cc/virtual/2023/poster/71815)] [[code](https://github.com/artidoro/qlora)]
 - "QuIP: 2-Bit Quantization of Large Language Models With Guarantees", NeurIPS, 2023. [[paper](https://neurips.cc/virtual/2023/poster/69982)] [[code](https://github.com/jerry-chee/QuIP)] [**`PTQ`**]
 - "Memory-Efficient Fine-Tuning of Compressed Large Language Models via sub-4-bit Integer Quantization", NeurIPS, 2023. [[paper](https://neurips.cc/virtual/2023/poster/72931)]
-- "SqueezeLLM: Dense-and-Sparse Quantization", arXiv, 2023. [[paper](https://arxiv.org/abs/2306.07629)] [**`PTQ`**] [**`Non-uniform`**]
 - "QFT: Quantized Full-parameter Tuning of LLMs with Affordable Resources", arXiv, 2023. [[paper](https://arxiv.org/abs/2310.07147)]
 - "QMoE: Practical Sub-1-Bit Compression of Trillion-Parameter Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2310.16795)]
 - "Atom: Low-bit Quantization for Efficient and Accurate LLM Serving", arXiv, 2023. [[paper](http://arxiv.org/abs/2310.19102)]
@@ -188,6 +198,9 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "Post-training Quantization on Diffusion Models", CVPR, 2023. [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.html)] [[code](https://https//github.com/42Shawn/PTQ4DM)] [**`PTQ`**]
 
 ### Image Classification
+- "Sharpness-Aware Data Generation for Zero-shot Quantization", ICML, 2024. [[paper](https://openreview.net/forum?id=8mKXMnhnFW)]
+- "A2Q+: Improving Accumulator-Aware Weight Quantization", ICML, 2024. [[paper](https://openreview.net/forum?id=mbx2pLK5Eq)]
+- "HyQ: Hardware-Friendly Post-Training Quantization for CNN-Transformer Hybrid Networks", IJCAI, 2024. [[paper](https://www.ijcai.org/proceedings/2024/474)] [**`PTQ`**]
 - "Retraining-Free Model Quantization via One-Shot Weight-Coupling Learning", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Tang_Retraining-Free_Model_Quantization_via_One-Shot_Weight-Coupling_Learning_CVPR_2024_paper.html)] [**`MP`**]
 - "Mixed-Precision Quantization for Federated Learning on Resource-Constrained Heterogeneous Devices", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_Mixed-Precision_Quantization_for_Federated_Learning_on_Resource-Constrained_Heterogeneous_Devices_CVPR_2024_paper.html)] [**`MP`**]
 - "Enhancing Post-training Quantization Calibration through Contrastive Learning", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Shang_Enhancing_Post-training_Quantization_Calibration_through_Contrastive_Learning_CVPR_2024_paper.html)] [**`PTQ`**]
