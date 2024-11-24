@@ -6,6 +6,7 @@ This repo is being actively updated, and contributions in any form to make this 
 
 If you find this repo useful, please consider **★STARing** and feel free to share it with others! <br>
 
+**[Update: Nov, 2024]** Add new papers from ECCV-24 and NeurIPS-24. <br>
 **[Update: Sep, 2024]** Add new papers from ICML-24 and IJCAI-24. <br>
 **[Update: Jul, 2024]** Add new papers from CVPR-24. <br>
 **[Update: May, 2024]** Add new papers from ICLR-24. <br>
@@ -48,6 +49,9 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Transformer-based Models
 ### Vision Transformers
+- "CLAMP-ViT: Contrastive Data-Free Learning for Adaptive Post-Training Quantization of ViTs", ECCV, 2024. [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8434_ECCV_2024_paper.php)] [**`PTQ`**]
+- "AdaLog: Post-Training Quantization for Vision Transformers with Adaptive Logarithm Quantizer", ECCV, 2024. [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3969_ECCV_2024_paper.php)]  [**`PTQ`**]
+- "PQ-SAM: Post-training Quantization for Segment Anything Model", ECCV, 2024. [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1627_ECCV_2024_paper.php)]  [**`PTQ`**]
 - "ERQ: Error Reduction for Post-Training Quantization of Vision Transformers", ICML, 2024. [[paper](https://openreview.net/forum?id=jKUWlgra9b)] [**`PTQ`**]
 - "Outlier-aware Slicing for Post-Training Quantization in Vision Transformer", ICML, 2024. [[paper](https://openreview.net/forum?id=Uh5XN9d2J4)] [**`PTQ`**]
 - "PTQ4SAM: Post-Training Quantization for Segment Anything", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Lv_PTQ4SAM_Post-Training_Quantization_for_Segment_Anything_CVPR_2024_paper.html)] [**`PTQ`**]
@@ -81,6 +85,12 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 [[Back to Overview](#overview)]
 
 ### Language Transformers
+- "Q-VLM: Post-training Quantization for Large Vision-Language Models", NeurIPS, 2024. [[paper](https://nips.cc/virtual/2024/poster/94107)]
+- "KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization", NeurIPS, 2024. [[paper](https://nips.cc/virtual/2024/poster/96936)]
+- "QBB: Quantization with Binary Bases for LLMs", NeurIPS, 2024. [[paper](https://nips.cc/virtual/2024/poster/95634)]
+- "DuQuant: Distributing Outliers via Dual Transformation Makes Stronger Quantized LLMs", NeurIPS, 2024. [[paper](https://nips.cc/virtual/2024/poster/93727)]
+- "ZipCache: Accurate and Efficient KV Cache Quantization with Salient Token Identification", NeurIPS, 2024. [[paper](https://nips.cc/virtual/2024/poster/96563)]
+- "KV Cache is 1 Bit Per Channel: Efficient Large Language Model Inference with Coupled Quantization", NeurIPS, 2024. [[paper](https://nips.cc/virtual/2024/poster/93558)]
 - "Evaluating Quantized Large Language Models", ICML, 2024. [[paper](https://openreview.net/forum?id=DKKg5EFAFr)]
 - "SqueezeLLM: Dense-and-Sparse Quantization", ICML, 2024. [[paper](https://openreview.net/forum?id=0jpbpFia8m)] [**`PTQ`**] [**`Non-uniform`**]
 - "KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache", ICML, 2024. [[paper](https://openreview.net/forum?id=L057s2Rq8O)]
@@ -182,6 +192,13 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Convolutional Neural Networks
 ### Visual Generation
+- "BiDM: Pushing the Limit of Quantization for Diffusion Models", NeurIPS, 2024. [[paper](https://nips.cc/virtual/2024/poster/93620)]
+- "PTQ4DiT: Post-training Quantization for Diffusion Transformers", NeurIPS, 2024. [[paper](https://nips.cc/virtual/2024/poster/95445)] [**`PTQ`**]
+- "BitsFusion: 1.99 bits Weight Quantization of Diffusion Model", NeurIPS, 2024. [[paper](https://nips.cc/virtual/2024/poster/96909)]
+- "Timestep-Aware Correction for Quantized Diffusion Models", ECCV, 2024. [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8312_ECCV_2024_paper.php)]
+- "Post-training Quantization with Progressive Calibration and Activation Relaxing for Text-to-Image Diffusion Models", ECCV, 2024. [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7353_ECCV_2024_paper.php)]  [**`PTQ`**]
+- "Memory-Efficient Fine-Tuning for Quantized Diffusion Model", ECCV, 2024. [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2494_ECCV_2024_paper.php)]
+- "MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization", ECCV, 2024. [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2212_ECCV_2024_paper.php)]
 - "TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Huang_TFMQ-DM_Temporal_Feature_Maintenance_Quantization_for_Diffusion_Models_CVPR_2024_paper.html)] [**`PTQ`**]
 - "Towards Accurate Post-training Quantization for Diffusion Models", CVPR, 2024. [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Towards_Accurate_Post-training_Quantization_for_Diffusion_Models_CVPR_2024_paper.html)] [**`PTQ`**]
 - "EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models", ICLR, 2024. [[paper](https://openreview.net/forum?id=UmMa3UNDAz)]
@@ -198,6 +215,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "Post-training Quantization on Diffusion Models", CVPR, 2023. [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.html)] [[code](https://https//github.com/42Shawn/PTQ4DM)] [**`PTQ`**]
 
 ### Image Classification
+- "MetaAug: Meta-Data Augmentation for Post-Training Quantization", ECCV, 2024. [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3914_ECCV_2024_paper.php)]
 - "Sharpness-Aware Data Generation for Zero-shot Quantization", ICML, 2024. [[paper](https://openreview.net/forum?id=8mKXMnhnFW)]
 - "A2Q+: Improving Accumulator-Aware Weight Quantization", ICML, 2024. [[paper](https://openreview.net/forum?id=mbx2pLK5Eq)]
 - "HyQ: Hardware-Friendly Post-Training Quantization for CNN-Transformer Hybrid Networks", IJCAI, 2024. [[paper](https://www.ijcai.org/proceedings/2024/474)] [**`PTQ`**]
@@ -318,6 +336,8 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 
 #### Super Resolution
+- "Towards Robust Full Low-bit Quantization of Super Resolution Networks", ECCV, 2024. [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9567_ECCV_2024_paper.php)] [**`PTQ`**]
+- "Overcoming Distribution Mismatch in Quantizing Image Super-Resolution Networks", ECCV, 2024. [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2121_ECCV_2024_paper.php)]
 - "QuantSR: Accurate Low-bit Quantization for Efficient Image Super-Resolution", NeurIPS, 2023. [[paper](https://neurips.cc/virtual/2023/poster/72890)]
 - "Toward Accurate Post-Training Quantization for Image Super Resolution", CVPR, 2023. [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tu_Toward_Accurate_Post-Training_Quantization_for_Image_Super_Resolution_CVPR_2023_paper.pdf)] [[code]( https://github.com/huawei-noah/Efficient-Computing/tree/master/Quantization/PTQ4SR)]  [**`PTQ`**]
 - "EBSR: Enhanced Binary Neural Network for Image Super-Resolution", arXiv, 2023. [[paper](https://arxiv.org/abs/2303.12270)] [**`Extreme`**]
