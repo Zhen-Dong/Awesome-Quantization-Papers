@@ -195,7 +195,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "Temporal Dynamic Quantization for Diffusion Models", NeurIPS, 2023. [[paper](https://neurips.cc/virtual/2023/poster/72396)]
 - "Q-diffusion: Quantizing Diffusion Models", ICCV, 2023. [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)] [[code](https://github.com/Xiuyu-Li/q-diffusion)] [**`PTQ`**]
 - "Towards Accurate Data-free Quantization for Diffusion Models", arXiv, 2023. [[paper](http://arxiv.org/abs/2305.18723)] [**`PTQ`**]
-- "Post-training Quantization on Diffusion Models", CVPR, 2023. [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.html)] [[code](https://https//github.com/42Shawn/PTQ4DM)] [**`PTQ`**]
+- "Post-training Quantization on Diffusion Models", CVPR, 2023. [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.html)] [[code](https://github.com/42Shawn/PTQ4DM)] [**`PTQ`**]
 
 ### Image Classification
 - "Sharpness-Aware Data Generation for Zero-shot Quantization", ICML, 2024. [[paper](https://openreview.net/forum?id=8mKXMnhnFW)]
