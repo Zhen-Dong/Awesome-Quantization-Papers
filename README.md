@@ -229,6 +229,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 [[Back to Overview](#overview)]
 
 ### Image Classification
+- "PLUM: Improving Inference Efficiency By Leveraging Repetition-Sparsity Trade-Off", TMLR, 2024 [[code](https://github.com/sachitkuhar/PLUM)][[webpage](https://github.com/sachitkuhar/PLUM)][[video](https://www.youtube.com/watch?v=nE_CYDWqQ_I)][**`extreme`**]
 - "MetaAug: Meta-Data Augmentation for Post-Training Quantization", ECCV, 2024. [[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3914_ECCV_2024_paper.php)]
 - "Sharpness-Aware Data Generation for Zero-shot Quantization", ICML, 2024. [[paper](https://openreview.net/forum?id=8mKXMnhnFW)]
 - "A2Q+: Improving Accumulator-Aware Weight Quantization", ICML, 2024. [[paper](https://openreview.net/forum?id=mbx2pLK5Eq)]
