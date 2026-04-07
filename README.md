@@ -54,6 +54,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 - "CBQ: Cross-Block Quantization for Large Language Models", ICLR, 2025. [[paper](https://iclr.cc/virtual/2025/poster/28924)]
 - "SpinQuant: LLM Quantization with Learned Rotations", ICLR, 2025. [[paper](https://iclr.cc/virtual/2025/poster/28338)]
 - "LeanQuant: Accurate and Scalable Large Language Model Quantization with Loss-error-aware Grid", ICLR, 2025. [[paper](https://iclr.cc/virtual/2025/poster/30168)]
+- "NexusQuant: Training-Free KV Cache Compression via Hadamard Rotation and E8 Lattice Vector Quantization", arXiv, 2026. [[code](https://github.com/jagmarques/nexusquant)] [**`KV Cache`**] [**`Training-Free`**]
 - "Q-VLM: Post-training Quantization for Large Vision-Language Models", NeurIPS, 2024. [[paper](https://nips.cc/virtual/2024/poster/94107)]
 - "KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization", NeurIPS, 2024. [[paper](https://nips.cc/virtual/2024/poster/96936)]
 - "QBB: Quantization with Binary Bases for LLMs", NeurIPS, 2024. [[paper](https://nips.cc/virtual/2024/poster/95634)]
