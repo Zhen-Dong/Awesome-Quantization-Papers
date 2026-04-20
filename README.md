@@ -51,6 +51,9 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Transformer-based Models
 ### Language Transformers
+
+- [OneComp: One-Line Revolution for Generative AI Model Compression](https://arxiv.org/abs/2603.28845) `[PTQ][MP][Rotation]` arXiv 2026. [[Code](https://github.com/FujitsuResearch/OneCompression)]
+- [Quantization Error Propagation: Revisiting Layer-Wise Post-Training Quantization](https://openreview.net/forum?id=a3l3K9khbL) `[PTQ]` NeurIPS 2025. [[Code](https://github.com/FujitsuResearch/OneCompression)]
 - "CBQ: Cross-Block Quantization for Large Language Models", ICLR, 2025. [[paper](https://iclr.cc/virtual/2025/poster/28924)]
 - "SpinQuant: LLM Quantization with Learned Rotations", ICLR, 2025. [[paper](https://iclr.cc/virtual/2025/poster/28338)]
 - "LeanQuant: Accurate and Scalable Large Language Model Quantization with Loss-error-aware Grid", ICLR, 2025. [[paper](https://iclr.cc/virtual/2025/poster/30168)]
