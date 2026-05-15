@@ -51,6 +51,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ## Transformer-based Models
 ### Language Transformers
+- "EdgeRazor: A Lightweight Framework for Large Language Models via Mixed-Precision Quantization-Aware Distillation", arXiv, 2026. [[paper](https://arxiv.org/abs/2605.04062)] [[code](https://github.com/zhangsq-nju/EdgeRazor)] [[model](https://huggingface.co/collections/zhangsq-nju/edgerazor-nbit)] [[playground](https://huggingface.co/spaces/zhangsq-nju/EdgeRazor-PlayGround)] [**`QAD`**] [**`1.58-bit to 4-bit`**]
 - "CBQ: Cross-Block Quantization for Large Language Models", ICLR, 2025. [[paper](https://iclr.cc/virtual/2025/poster/28924)]
 - "SpinQuant: LLM Quantization with Learned Rotations", ICLR, 2025. [[paper](https://iclr.cc/virtual/2025/poster/28338)]
 - "LeanQuant: Accurate and Scalable Large Language Model Quantization with Loss-error-aware Grid", ICLR, 2025. [[paper](https://iclr.cc/virtual/2025/poster/30168)]
